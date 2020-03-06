@@ -6,13 +6,13 @@ Collaborated with Treasury Board Secretariat, Ontario Public Services to develop
 -	Interacted with the API using Angular and designed the UI using Bootstrap CSS
 
 
-# Flask-Server
+# Express-Server
 
 scrap.py will scrap metadata required and upload them into the mongo database
 
-searchapi.py is the flask web-service to handle url requests
+express-node web-service will handle url requests
 
-Run `searchapi.py` for a dev server. Navigate to `http://localhost:5000/`
+Run `npm run server` for a dev server. Navigate to `http://localhost:5000/`
 
 # Angular
 
