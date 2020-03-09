@@ -85,7 +85,7 @@
  </div>
 
   
-  <div [hidden]="//@ts-ignore pdffile?.length==0" class="table-responsive"> 
+  <div [hidden]="pdffile?.length==0" class="table-responsive"> 
         <p class="text-center">Click on the table headers to sort the results</p>
         <table mdbTable #tableEl="mdbTable" class="z-depth-1" hover="true" class="table table-responsive table-striped table-bordered table-sm">
                 <thead>
@@ -122,6 +122,6 @@
         </table>                  
 </div>         
           
-<div [hidden]="//@ts-ignore pdffile?.length!=0" class="mx-auto" style="width: 250px;"> 
+<div [hidden]="pdffile?.length!=0" class="mx-auto" style="width: 250px;"> 
         <p class="text-center">Sorry! No results were found. Select/Type inputs to begin advanced searching</p>
 </div>

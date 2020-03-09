@@ -10,7 +10,11 @@
 # dependencies
 /node_modules
 /nodeserver/node_modules/*
+
+# dbfiles
 /nodeserver/pdf/*
+/nodeserver/db/gats_metadata.htm
+/nodeserver/db/extract.py
 
 # profiling files
 chrome-profiler-events*.json
